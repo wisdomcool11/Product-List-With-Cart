@@ -104,12 +104,12 @@ function Card(props){
         <>
             <div className="card w-full md:w-[90%] p-4 rounded-sm flex flex-col justify-center items-center">
 
-                <div className="w-full  rounded-lg overflow-hidden"> 
+                <div className="w-full rounded-lg overflow-hidden"> 
                     {/* <img src={WaffleBerries} alt="waffle with berries" className="bg-center bg-no-repeat bg-cover" /> */}
                     <img 
                         src= {imageSrc} 
                         alt={props.name} 
-                        className="bg-center bg-no-repeat bg-cover" 
+                        className=" bg-center bg-no-repeat bg-cover" 
                     />
                 </div>
 

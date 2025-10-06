@@ -16,10 +16,10 @@ function Main(){
                     <EmptyCart />
                 </section>
                 
-                {/* <div className="flex flex-col gap-2">
-                    <ActiveCart />
+                <div className="flex flex-col gap-2">
+                    {/* <ActiveCart /> */}
                     <CartConfirmed />
-                </div> */}
+                </div>
 
                 
                 <div className="attribution">
